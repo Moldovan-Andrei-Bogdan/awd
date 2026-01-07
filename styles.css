@@ -81,13 +81,13 @@ body {
     font-size: clamp(2rem, 4vw, 2.5rem);
     color: var(--primary-color);
     margin-bottom: 1.5rem;
-    border-left: 5px solid var(--secondary-color);
+    border-left: 5px solid var(--text);
     padding-left: 1rem;
 }
 
 .content-section h3 {
     font-size: 1.5rem;
-    color: var(--secondary-color);
+    color: var(--text-color);
     margin-bottom: 1rem;
 }
 
@@ -242,7 +242,7 @@ body {
 .personal-perspectives cite {
     display: block;
     text-align: right;
-    color: var(--secondary-color);
+    color: var(--text-color);
     font-style: normal;
     font-weight: 600;
 }
@@ -283,12 +283,12 @@ body {
     transition: var(--transition);
 }
 
-.method h4,
+.method h3,
 .method p {
     padding: 0 1.5rem;
 }
 
-.method h4 {
+.method h3 {
     padding-top: 1.5rem;
     transition: var(--transition);
 }
@@ -303,7 +303,7 @@ body {
     transform: scale(1.05);
 }
 
-.method:hover h4 {
+.method:hover h3 {
     color: white;
 }
 
@@ -358,7 +358,7 @@ body {
 .closing {
     font-size: 1.1rem;
     font-style: italic;
-    color: var(--secondary-color);
+    color: var(--text-color);
     text-align: center;
     margin-top: 2rem;
 }
